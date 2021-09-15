@@ -127,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib/camera/liblg_awb_param_s5k3m5t_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/liblg_awb_param_s5k3m5t_video.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/camera/liblg_awb_param_s5k3m5tb_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/liblg_awb_param_s5k3m5tb_preview.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/camera/liblg_awb_param_s5k3m5tb_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/liblg_awb_param_s5k3m5tb_video.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/camera/sensors.hal.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/sensors.hal.flicker.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/hw/camera.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msmnile.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/lib.com.lge.elvis.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib.com.lge.elvis.so \
@@ -136,6 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib/libSJVideoNR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSJVideoNR.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/libSRIyuv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSRIyuv.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/libarcsoft_beauty_picselfie.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beauty_picselfie.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/libarcsoft_depth_bokeh_img.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_depth_bokeh_img.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/libarcsoft_depthcam_portrait_lighting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_depthcam_portrait_lighting.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
@@ -143,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib/libarcsoft_dualcam_refocus_rear_t.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_rear_t.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/libarcsoft_makeup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_makeup.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/libarcsoft_object_tracking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_object_tracking.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/libarcsoft_picselfie_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_picselfie_algorithm.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/libarcsoft_singlecam_portrait_lighting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_singlecam_portrait_lighting.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/libbwfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwfocuspeaking.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/libc++_shared_snpe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared_snpe.so \
@@ -298,6 +301,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib64/camera/liblg_awb_param_s5k3m5t_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/liblg_awb_param_s5k3m5t_video.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/camera/liblg_awb_param_s5k3m5tb_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/liblg_awb_param_s5k3m5tb_preview.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/camera/liblg_awb_param_s5k3m5tb_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/liblg_awb_param_s5k3m5tb_video.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/camera/sensors.hal.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/sensors.hal.flicker.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/hw/camera.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.msmnile.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/lib.com.lge.elvis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib.com.lge.elvis.so \
@@ -307,6 +311,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libSJVideoNR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSJVideoNR.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libSRIyuv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSRIyuv.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/libarcsoft_beauty_picselfie.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beauty_picselfie.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libarcsoft_depth_bokeh_img.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_depth_bokeh_img.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libarcsoft_depthcam_portrait_lighting.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_depthcam_portrait_lighting.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libarcsoft_dualcam_portraitlighting.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_portraitlighting.so \
@@ -315,6 +320,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_rear_t.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_rear_t.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libarcsoft_makeup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_makeup.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libarcsoft_object_tracking.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_object_tracking.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/libarcsoft_picselfie_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_picselfie_algorithm.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libarcsoft_singlecam_portrait_lighting.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_singlecam_portrait_lighting.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libbwfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwfocuspeaking.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libc++_shared_snpe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared_snpe.so \

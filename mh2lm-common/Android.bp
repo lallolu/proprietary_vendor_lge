@@ -5,3 +5,62 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "DualScreenFirmware",
+	owner: "lge",
+	apk: "proprietary/product/app/DualScreenFirmware/DualScreenFirmware.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "CoverDisplayHome",
+	owner: "lge",
+	apk: "proprietary/product/priv-app/CoverDisplayHome/CoverDisplayHome.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "CoverDisplayTools",
+	owner: "lge",
+	apk: "proprietary/product/priv-app/CoverDisplayTools/CoverDisplayTools.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "LGDSManager",
+	owner: "lge",
+	apk: "proprietary/product/priv-app/LGDSManager/LGDSManager.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+dex_import {
+	name: "com.lge.sui.widget",
+	owner: "lge",
+	jars: ["proprietary/system/framework/com.lge.sui.widget/com.lge.sui.widget.apk"],
+}
+
+dex_import {
+	name: "lge-res",
+	owner: "lge",
+	jars: ["proprietary/system/framework/lge-res/lge-res.apk"],
+}
+

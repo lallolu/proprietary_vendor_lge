@@ -3,6 +3,7 @@
   {
     "hw_platform": ["MTP", "Surf", "QRD"],
     "soc_id": ["321", "339"],
+    "panel_rev": ["others"]
   },
   "apds9169":{
     "owner": "sns_apds9169",
