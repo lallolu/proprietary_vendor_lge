@@ -6,290 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lge/mh2lm-common
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/mh2lm-common/proprietary/lib/vndk-29/android.hardware.usb@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-29/android.hardware.usb@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/lib/vndk-29/android.hardware.usb@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-29/android.hardware.usb@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/lib/vndk-29/android.hardware.usb@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-29/android.hardware.usb@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/lib64/vndk-29/android.hardware.usb@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vndk-29/android.hardware.usb@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/lib64/vndk-29/android.hardware.usb@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vndk-29/android.hardware.usb@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/lib64/vndk-29/android.hardware.usb@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vndk-29/android.hardware.usb@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/product/etc/dfu/LMV515N-V20b_00.dfu:$(TARGET_COPY_OUT_PRODUCT)/etc/dfu/LMV515N-V20b_00.dfu \
-    vendor/lge/mh2lm-common/proprietary/product/etc/permissions/privapp-permissions-lge-mh2lm-laop.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-lge-mh2lm-laop.xml \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.accessory-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.accessory-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.accessory-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.accessory-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.accessory-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.accessory-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.accessory-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.accessory-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.accessory.uevent-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.accessory.uevent-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.accessory.uevent-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.accessory.uevent-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.battery-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.battery-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.battery-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.battery-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.charger-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.charger-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.charger-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.charger-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.charger-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.charger-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.charger-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.charger-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.coverdisplay-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.coverdisplay-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.coverdisplay-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.coverdisplay-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.display.brightness-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.display.brightness-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.display.brightness-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.display.brightness-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.display.brightness-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.display.brightness-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.display.brightness-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.display.brightness-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.display.uevent-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.display.uevent-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.display.uevent-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.display.uevent-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.display.uevent-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.display.uevent-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.display.uevent-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.display.uevent-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.dualscreen-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.dualscreen-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.dualscreen-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.dualscreen-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.dualscreen-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.dualscreen-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.dualscreen-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.dualscreen-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.lpwg-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.lpwg-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.lpwg-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.lpwg-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.lpwg-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.lpwg-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.lpwg-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.lpwg-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.lpwg-V1.2-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.lpwg-V1.2-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.lpwg-V1.2-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.lpwg-V1.2-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.lpwg-V1.3-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.lpwg-V1.3-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.lpwg-V1.3-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.lpwg-V1.3-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.lpwg-V1.4-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.lpwg-V1.4-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.lpwg-V1.4-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.lpwg-V1.4-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.2-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.2-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.2-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.2-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.2-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.2-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.2-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.powercontrol-V1.2-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.thermal-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.thermal-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.thermal-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.thermal-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.thermal-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.thermal-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.thermal-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.thermal-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.usb-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.usb-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.usb-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.usb-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.usb.gadget-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.usb.gadget-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.usb.gadget-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.usb.gadget-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.usb.uevent-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.usb.uevent-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm/vendor.lge.hardware.usb.uevent-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/vendor.lge.hardware.usb.uevent-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.accessory-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.accessory-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.accessory-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.accessory-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.accessory-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.accessory-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.accessory-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.accessory-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.accessory.uevent-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.accessory.uevent-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.accessory.uevent-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.accessory.uevent-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.battery-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.battery-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.battery-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.battery-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.charger-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.charger-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.charger-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.charger-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.charger-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.charger-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.charger-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.charger-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.coverdisplay-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.coverdisplay-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.coverdisplay-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.coverdisplay-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.display.brightness-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.display.brightness-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.display.brightness-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.display.brightness-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.display.brightness-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.display.brightness-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.display.brightness-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.display.brightness-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.display.uevent-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.display.uevent-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.display.uevent-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.display.uevent-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.display.uevent-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.display.uevent-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.display.uevent-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.display.uevent-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.dualscreen-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.dualscreen-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.dualscreen-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.dualscreen-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.dualscreen-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.dualscreen-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.dualscreen-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.dualscreen-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.2-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.2-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.2-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.2-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.3-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.3-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.3-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.3-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.4-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.4-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.4-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.lpwg-V1.4-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.2-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.2-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.2-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.2-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.2-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.2-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.2-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.powercontrol-V1.2-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.thermal-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.thermal-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.thermal-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.thermal-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.thermal-V1.1-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.thermal-V1.1-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.thermal-V1.1-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.thermal-V1.1-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.usb-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.usb-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.usb-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.usb-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.usb.gadget-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.usb.gadget-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.usb.gadget-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.usb.gadget-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.usb.uevent-V1.0-java.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.usb.uevent-V1.0-java.odex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/oat/arm64/vendor.lge.hardware.usb.uevent-V1.0-java.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm64/vendor.lge.hardware.usb.uevent-V1.0-java.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.accessory-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.accessory-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.accessory-V1.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.accessory-V1.1-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.accessory.uevent-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.accessory.uevent-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.battery-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.battery-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.charger-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.charger-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.charger-V1.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.charger-V1.1-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.coverdisplay-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.coverdisplay-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.display.brightness-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.display.brightness-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.display.brightness-V1.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.display.brightness-V1.1-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.display.uevent-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.display.uevent-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.display.uevent-V1.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.display.uevent-V1.1-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.dualscreen-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.dualscreen-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.dualscreen-V1.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.dualscreen-V1.1-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.lpwg-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.lpwg-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.lpwg-V1.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.lpwg-V1.1-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.lpwg-V1.2-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.lpwg-V1.2-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.lpwg-V1.3-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.lpwg-V1.3-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.lpwg-V1.4-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.lpwg-V1.4-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.powercontrol-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.powercontrol-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.powercontrol-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.powercontrol-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.powercontrol-V1.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.powercontrol-V1.1-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.powercontrol-V1.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.powercontrol-V1.1-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.powercontrol-V1.2-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.powercontrol-V1.2-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.powercontrol-V1.2-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.powercontrol-V1.2-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.thermal-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.thermal-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.thermal-V1.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.thermal-V1.1-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.usb-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.usb-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.usb.gadget-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.usb.gadget-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/framework/vendor.lge.hardware.usb.uevent-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.lge.hardware.usb.uevent-V1.0-java.jar \
-    vendor/lge/mh2lm-common/proprietary/product/lib/libsd_sdk_display.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsd_sdk_display.qti.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsdm-disp-apis.qti.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.3.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.10.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.11.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.12.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.12.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.3.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.4.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.5.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.6.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.7.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.8.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.config@1.9.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.postproc@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.accessory.uevent@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.accessory.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.accessory@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.accessory@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.accessory@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.accessory@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.aod.aodpower@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.aod.aodpower@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.battery@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.battery@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.charger@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.charger@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.charger@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.charger@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.coverdisplay@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.coverdisplay@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.display.brightness@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.display.brightness@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.display.brightness@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.display.brightness@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.display.uevent@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.display.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.display.uevent@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.display.uevent@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.dualscreen@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.dualscreen@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.dualscreen@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.dualscreen@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.lpwg@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.lpwg@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.lpwg@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.lpwg@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.lpwg@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.lpwg@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.lpwg@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.lpwg@1.3.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.lpwg@1.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.lpwg@1.4.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.powercontrol@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.powercontrol@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.powercontrol@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.powercontrol@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.powercontrol@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.powercontrol@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.powerhint.rescontrol@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.powerhint.rescontrol@2.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.thermal@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.thermal@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.thermal@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.usb.gadget@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.usb.gadget@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.usb.uevent@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.usb.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.lge.hardware.usb@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.lge.hardware.usb@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.qti.hardware.display.composer@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.display.composer@2.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib/vendor.qti.hardware.display.composer@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.display.composer@2.1.so \
     vendor/lge/mh2lm-common/proprietary/product/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.qseecom@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/libsd_sdk_display.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsd_sdk_display.qti.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsdm-disp-apis.qti.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.10.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.11.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.12.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.12.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.3.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.4.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.5.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.6.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.7.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.8.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.9.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.postproc@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.accessory.uevent@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.accessory.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.accessory@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.accessory@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.accessory@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.accessory@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.aod.aodpower@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.aod.aodpower@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.battery@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.battery@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.charger@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.charger@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.charger@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.charger@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.coverdisplay@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.coverdisplay@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.display.brightness@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.display.brightness@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.display.brightness@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.display.brightness@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.display.uevent@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.display.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.display.uevent@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.display.uevent@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.dualscreen@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.dualscreen@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.dualscreen@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.dualscreen@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.lpwg@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.lpwg@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.lpwg@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.lpwg@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.lpwg@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.lpwg@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.lpwg@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.lpwg@1.3.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.lpwg@1.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.lpwg@1.4.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.powercontrol@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.powercontrol@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.powercontrol@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.powercontrol@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.powercontrol@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.powercontrol@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.powerhint.rescontrol@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.powerhint.rescontrol@2.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.thermal@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.thermal@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.thermal@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.usb.gadget@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.usb.gadget@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.usb.uevent@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.usb.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.lge.hardware.usb@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.lge.hardware.usb@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.qti.hardware.display.composer@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.display.composer@2.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.qti.hardware.display.composer@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.display.composer@2.1.so \
     vendor/lge/mh2lm-common/proprietary/product/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.qseecom@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/product/priv-app/CoverDisplayHome/oat/arm/CoverDisplayHome.odex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/CoverDisplayHome/oat/arm/CoverDisplayHome.odex \
-    vendor/lge/mh2lm-common/proprietary/product/priv-app/CoverDisplayHome/oat/arm/CoverDisplayHome.vdex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/CoverDisplayHome/oat/arm/CoverDisplayHome.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/priv-app/CoverDisplayHome/oat/arm64/CoverDisplayHome.odex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/CoverDisplayHome/oat/arm64/CoverDisplayHome.odex \
-    vendor/lge/mh2lm-common/proprietary/product/priv-app/CoverDisplayHome/oat/arm64/CoverDisplayHome.vdex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/CoverDisplayHome/oat/arm64/CoverDisplayHome.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/priv-app/CoverDisplayTools/oat/arm/CoverDisplayTools.odex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/CoverDisplayTools/oat/arm/CoverDisplayTools.odex \
-    vendor/lge/mh2lm-common/proprietary/product/priv-app/CoverDisplayTools/oat/arm/CoverDisplayTools.vdex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/CoverDisplayTools/oat/arm/CoverDisplayTools.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/priv-app/CoverDisplayTools/oat/arm64/CoverDisplayTools.odex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/CoverDisplayTools/oat/arm64/CoverDisplayTools.odex \
-    vendor/lge/mh2lm-common/proprietary/product/priv-app/CoverDisplayTools/oat/arm64/CoverDisplayTools.vdex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/CoverDisplayTools/oat/arm64/CoverDisplayTools.vdex \
-    vendor/lge/mh2lm-common/proprietary/product/priv-app/LGDSManager/oat/arm64/LGDSManager.odex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/LGDSManager/oat/arm64/LGDSManager.odex \
-    vendor/lge/mh2lm-common/proprietary/product/priv-app/LGDSManager/oat/arm64/LGDSManager.vdex:$(TARGET_COPY_OUT_PRODUCT)/priv-app/LGDSManager/oat/arm64/LGDSManager.vdex \
-    vendor/lge/mh2lm-common/proprietary/system/etc/permissions/privapp-permissions-lge-mh2lm-laop.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-lge-mh2lm-laop.xml \
-    vendor/lge/mh2lm-common/proprietary/system/framework/com.lge.sui.widget/oat/arm/com.lge.sui.widget.odex:$(TARGET_COPY_OUT_SYSTEM)/framework/com.lge.sui.widget/oat/arm/com.lge.sui.widget.odex \
-    vendor/lge/mh2lm-common/proprietary/system/framework/com.lge.sui.widget/oat/arm/com.lge.sui.widget.vdex:$(TARGET_COPY_OUT_SYSTEM)/framework/com.lge.sui.widget/oat/arm/com.lge.sui.widget.vdex \
-    vendor/lge/mh2lm-common/proprietary/system/framework/com.lge.sui.widget/oat/arm64/com.lge.sui.widget.odex:$(TARGET_COPY_OUT_SYSTEM)/framework/com.lge.sui.widget/oat/arm64/com.lge.sui.widget.odex \
-    vendor/lge/mh2lm-common/proprietary/system/framework/com.lge.sui.widget/oat/arm64/com.lge.sui.widget.vdex:$(TARGET_COPY_OUT_SYSTEM)/framework/com.lge.sui.widget/oat/arm64/com.lge.sui.widget.vdex \
-    vendor/lge/mh2lm-common/proprietary/system/framework/lge-res/oat/arm64/lge-res.odex:$(TARGET_COPY_OUT_SYSTEM)/framework/lge-res/oat/arm64/lge-res.odex \
-    vendor/lge/mh2lm-common/proprietary/system/framework/lge-res/oat/arm64/lge-res.vdex:$(TARGET_COPY_OUT_SYSTEM)/framework/lge-res/oat/arm64/lge-res.vdex \
     vendor/lge/mh2lm-common/proprietary/vendor/bin/cpfirmware:$(TARGET_COPY_OUT_VENDOR)/bin/cpfirmware \
     vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/android.hardware.usb@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.0-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.accessory@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.accessory@1.1-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.aod.aodpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.aod.aodpower@1.0-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.battery@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.battery@1.0-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.charger@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.charger@1.1-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.coverdisplay@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.coverdisplay@1.0-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.display.brightness@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.display.brightness@1.1-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.display.uevent@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.display.uevent@1.0-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.dualscreen@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.dualscreen@1.0-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.lpwg@1.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.lpwg@1.4-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.powercontrol@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.powercontrol@1.2-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.powerhint.rescontrol@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.powerhint.rescontrol@2.0-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.thermal@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.thermal@1.1-service \
-    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.usb@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.usb@1.0-service \
     vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/lge/mh2lm-common/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -302,34 +22,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/android.hardware.power@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power@1.2-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/android.hardware.usb@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.0-service.rc \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/init/init.lge.fingerprints.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.lge.fingerprints.rc \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.accessory@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.accessory@1.1-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.aod.aodpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.aod.aodpower@1.0-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.battery@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.battery@1.0-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.charger@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.charger@1.1-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.coverdisplay@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.coverdisplay@1.0-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.display.brightness@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.display.brightness@1.1-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.display.uevent@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.display.uevent@1.0-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.dualscreen@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.dualscreen@1.0-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.lpwg@1.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.lpwg@1.4-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.powercontrol@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.powercontrol@1.2-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.powerhint.rescontrol@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.powerhint.rescontrol@2.0-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.thermal@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.thermal@1.1-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.usb@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.usb@1.0-service.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.power.addon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.power.addon.rc \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.power.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.power.rc \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/libnfc-nxp-KR.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-KR.conf \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/libnfc-nxp-US.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-US.conf \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/libnfc-nxp-lg.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-lg.conf \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/lge/mh2lm-common/proprietary/vendor/etc/permissions/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/sensors/registry/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/ak991x_dri_0.json \
     vendor/lge/mh2lm-common/proprietary/vendor/etc/sensors/registry/config/apds9169.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/apds9169.json \
@@ -455,18 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm-common/proprietary/vendor/firmware/rcv_bypass_on.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/rcv_bypass_on.txt \
     vendor/lge/mh2lm-common/proprietary/vendor/firmware/spk_bypass_off.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk_bypass_off.txt \
     vendor/lge/mh2lm-common/proprietary/vendor/firmware/spk_bypass_on.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk_bypass_on.txt \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msmnile.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/vendor.lge.hardware.accessory.uevent@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.accessory.uevent@1.0-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/vendor.lge.hardware.accessory@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.accessory@1.1-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/vendor.lge.hardware.charger@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.charger@1.1-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/vendor.lge.hardware.coverdisplay@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.coverdisplay@1.0-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/vendor.lge.hardware.display.brightness@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.display.brightness@1.1-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/vendor.lge.hardware.display.uevent@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.display.uevent@1.0-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/vendor.lge.hardware.dualscreen@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.dualscreen@1.0-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/vendor.lge.hardware.lpwg@1.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.lpwg@1.4-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/vendor.lge.hardware.usb.uevent@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.usb.uevent@1.0-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/vendor.lge.hardware.usb@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.usb@1.0-impl.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
@@ -475,15 +164,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/libdisplayconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayconfig.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/libdisplaydebug.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplaydebug.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcpsrm.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/libhdmiedid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmiedid.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib/libops.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/libprmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprmclient.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmp.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
@@ -492,7 +177,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspl.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/libvendor_rescontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvendor_rescontrol.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/AlacDecoderModule.so.1 \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/rfsa/adsp/ApeDecoderModule.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/ApeDecoderModule.so.1 \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/rfsa/adsp/AudioContextDetection.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/AudioContextDetection.so.1 \
@@ -579,72 +263,21 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/rfsa/adsp/tests/test_elf_size_512k.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tests/test_elf_size_512k.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/rfsa/adsp/tests/test_elf_size_64k.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tests/test_elf_size_64k.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/rfsa/adsp/tests/test_elf_size_768k.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tests/test_elf_size_768k.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/sensors.sar.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sar.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.10.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.11.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.3.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.4.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.5.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.6.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.7.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.8.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.9.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.accessory.uevent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.accessory.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.accessory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.accessory@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.accessory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.accessory@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.charger@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.charger@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.charger@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.charger@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.coverdisplay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.coverdisplay@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.display.brightness@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.display.brightness@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.display.brightness@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.display.brightness@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.display.uevent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.display.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.dualscreen@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.dualscreen@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.dualscreen@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.dualscreen@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.lpwg@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lpwg@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.lpwg@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lpwg@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.lpwg@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lpwg@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.lpwg@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lpwg@1.3.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.lpwg@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lpwg@1.4.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.powerhint.rescontrol@2.0-common.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.powerhint.rescontrol@2.0-common.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.powerhint.rescontrol@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.powerhint.rescontrol@2.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.usb.uevent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.usb.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.lge.hardware.usb@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.usb@1.0.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qseecom@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.msmnile.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/fingerprint.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msmnile.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.accessory.uevent@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.accessory.uevent@1.0-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.accessory@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.accessory@1.1-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.charger@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.charger@1.1-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.coverdisplay@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.coverdisplay@1.0-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.display.brightness@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.display.brightness@1.1-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.display.uevent@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.display.uevent@1.0-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.dualscreen@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.dualscreen@1.0-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.lpwg@1.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.lpwg@1.4-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.usb.uevent@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.usb.uevent@1.0-impl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.usb@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.usb@1.0-impl.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/libdisplayconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/libdisplaydebug.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplaydebug.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/libets_teeclient_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_teeclient_v2.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/libhdmiedid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmiedid.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/libprmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprmclient.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmp.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
@@ -653,59 +286,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/libvendor_rescontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor_rescontrol.so \
     vendor/lge/mh2lm-common/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/sensors.sar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sar.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.3.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.10.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.11.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.3.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.4.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.5.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.6.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.7.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.8.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.9.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.accessory.uevent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.accessory.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.accessory.uevent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.accessory.uevent@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.accessory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.accessory@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.accessory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.accessory@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.aod.aodpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.aod.aodpower@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.battery@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.battery@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.charger@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.charger@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.charger@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.charger@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.coverdisplay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.coverdisplay@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.display.brightness@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.display.brightness@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.display.brightness@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.display.brightness@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.display.uevent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.display.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.dualscreen@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.dualscreen@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.dualscreen@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.dualscreen@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.lpwg@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lpwg@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.lpwg@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lpwg@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.lpwg@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lpwg@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.lpwg@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lpwg@1.3.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.lpwg@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lpwg@1.4.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.powercontrol@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.powercontrol@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.powercontrol@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.powercontrol@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.powercontrol@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.powercontrol@1.2.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.powerhint.rescontrol@2.0-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.powerhint.rescontrol@2.0-common.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.powerhint.rescontrol@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.powerhint.rescontrol@2.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.thermal@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.thermal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.thermal@1.1.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.usb.uevent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.usb.uevent@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.usb@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.usb@1.0.so \
-    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qseecom@1.0.so
-
-PRODUCT_PACKAGES += \
-    DualScreenFirmware \
-    CoverDisplayHome \
-    CoverDisplayTools \
-    LGDSManager \
-    com.lge.sui.widget \
-    lge-res
+    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qseecom@1.0.so \
+    vendor/lge/mh2lm-common/proprietary/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
+    vendor/lge/mh2lm-common/proprietary/vendor/lib64/libets_teeclient_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_teeclient_v2.so \
+    vendor/lge/mh2lm-common/proprietary/vendor/lib/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msmnile.so \
+    vendor/lge/mh2lm-common/proprietary/vendor/lib64/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.msmnile.so
+#    vendor/lge/mh2lm-common/proprietary/vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.2-service \
+#    vendor/lge/mh2lm-common/proprietary/vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.2-service.rc \
+#    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so \
+#    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.lge.hardware.biometrics.fingerprint@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.biometrics.fingerprint@2.2.so \
+#    vendor/lge/mh2lm-common/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
+#    vendor/lge/mh2lm-common/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
